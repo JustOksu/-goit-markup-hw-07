@@ -1,16 +1,3 @@
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 img {
   display: block;
   width: 100%;
@@ -40,15 +27,6 @@ html {
   box-sizing: border-box;
 }
 
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-text-color: #2196f3;
-  --secondary-backgroud-color: #f5f4fa;
-  --primary-background-color: #e5e5e5;
-  --head-background-color: #2f303a;
-}
-
 p,
 h1,
 h2,
@@ -75,4 +53,9 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   /* outline: solid red; */
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }

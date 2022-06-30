@@ -3,10 +3,6 @@
   list-style: none;
 }
 
-.list-wwd + .list-wwd {
-  margin-left: 30px;
-}
-
 .it-wwd {
   display: block;
   max-height: 100%;
@@ -38,4 +34,7 @@
   position: relative;
   display: flex;
   align-items: flex-end;
+  & + & {
+  margin-left: 30px;
+}
 }
